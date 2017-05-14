@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contacts</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <header>
+<div class="panel panel-default">
+  <div class="panel-body"><nav>
+	<ul class="top-menu">
+		<li><a href="home.html">Home</a></li>
+		<li ><a href="index.html">About</li>
+		
+		  <li><a href="utwory.html">Songs</a></li>
+		<li><a href="DaD.html">Drag and Drop</a></li>
+		<li class="active">Contact</li>
+	</ul>
+</nav>
+  </div>
+</div>
+</header>
+
+<body>
+
+
+
+<section>
+<div>
+<div class="block" style="text-align: center;">
+      <p><strong>Wyższa Szkoła Ekonomii i Innowacji w Lublinie</strong><br>ul. Projektowa 4<br>20-209 Lublin</p>
+<p>tel./fax: 81 749-17-70<br>fax: 81 749-32-13<br>e-mail: <a href="mailto:sekretariat@wsei.lublin.pl">sekretariat@wsei.lublin.pl</a></p>
+<p>Uczelnia wpisana do Rejestru Wyższych Szkół Zawodowych prowadzonego przez Ministerstwo Nauki i Szkolnictwa Wyższego pod numerem 196. - MNiSW</p>
+<p><strong>NIP:</strong> 712-26-52-693<br><strong>REGON:</strong> 432260703</p>
+<p><strong>Konto bankowe:</strong><br>PKO BP SA 30 1020 3147 0000 8202 0065 0382</p>
+<p><strong>Biuro Obsługi Studenta/Rekrutacja</strong><br>+48 81 749-17-77<br><a href="mailto:bos@wsei.lublin.pl">bos@wsei.lublin.pl</a><br><a href="mailto:rekrutacja@wsei.lublin.pl">rekrutacja@wsei.lublin.pl</a></p>
+<p><strong>Sekretariat Rektora</strong><br>+48 81 749-17-77</p>
+<p><strong>Sekretariat Kanclerza</strong><br>+48 81 749 17 70<br>fax: +48 81 749 32 13<br><a href="mailto:sekretariat@wsei.lublin.pl">sekretariat@wsei.lublin.pl</a></p>
+   </div>
+</div>
+</section>
+
+
+
+
+
+	<section>	
+
+
+	<div >
+	<div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 51.2460293, lng: 22.6102405};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+<script async defer
+ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCoYn5ONsVXeVZwfPHwfOV2PlYL-4ejQ0&callback=initMap">
+   
+ </script>
+
+
+	</div>
+
+
+
+
+
+</body>
+</body>
+</html>

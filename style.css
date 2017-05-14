@@ -1,0 +1,63 @@
+.top-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+.top-menu li.active {
+	background: #29c5e6;
+	color: #fff;
+}
+
+.top-menu a {
+	color: #363434;
+}
+
+
+.ots{
+	margin-top: 50px;
+}
+ #map {
+        
+       height: 400px;
+        width: 100%;
+       }
+
+#man{
+	background-color: grey;
+	    height: 276px;
+    width: 846px;
+}
+
+#auto h5{
+	margin-top: 40px;
+		margin-left: 390px;
+	font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+    font-size: 350%; /* Размер шрифта в процентах */ 
+}
+
+#div1, #div2 ,#div3,#div4,#div5{
+    float: left;
+    width: 230px;
+    height: 340px;
+    margin: 10px;
+    padding: 10px;
+    border: 0.5px  solid rgba(0, 0, 0, 0.16);
+    margin-right:  29px;
+    
+}
+#div1{
+    background-color: rgba(0, 0, 0, 0.47);
+}
+#div2{
+    background-color: rgba(220, 149, 149, 0.44);
+}
+#div3{
+    background-color: rgba(0, 97, 255, 0.32);
+}
+#div4{
+    background-color: rgba(137, 255, 138, 0.4);
+}
+#div5{
+    background-color: rgba(255, 249, 141, 0.57);
+}
